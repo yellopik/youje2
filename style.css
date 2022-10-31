@@ -159,6 +159,12 @@ footer{
     padding: 1.6rem 1.6rem 3.2rem;
     border-top: 1px solid rgb(147, 147, 147);
 }
+.container2 a{
+    color: #666;
+}
+.container2 a:hover{
+    color: black;
+}
 @media screen and (max-width:990px) {
     .nv-bar{
         height: 5%;
