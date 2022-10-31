@@ -102,15 +102,13 @@ video{
 }
 footer{
     margin: 0 5% 5% 0;
-    border-top: 1px solid rgb(147, 147, 147);
-    border-bottom: 1px solid rgb(147, 147, 147);
     width: 100%;
-
+    border-top: 1px solid rgb(147, 147, 147);
 }
 .container{
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
+    width: 100vw;
 }
 .email-sign-up{
     width: calc(25% - 4.8rem);
@@ -152,6 +150,14 @@ footer{
 .email2 span{
     display: block;
     position: absolute;
+}
+.information{
+    width: 100%;
+}
+.container2{
+    font-size: 1rem;
+    padding: 1.6rem 1.6rem 3.2rem;
+    border-top: 1px solid rgb(147, 147, 147);
 }
 @media screen and (max-width:990px) {
     .nv-bar{
@@ -212,6 +218,9 @@ footer{
     }
     .email-sign-up:first-of-type{
         margin-bottom: 10%;
+    }
+    .container2{
+        font-size: 0.5rem;
     }
 }
 @media screen and (max-width:768px){
